@@ -1,4 +1,5 @@
 <template>
+<img style="position: absolute; z-index: -999999" src="./assets/head.svg">
 <div :class="{'mobile-menu': true, 'mobile-menu-open': mobileMenu}">
   <div>
     <div v-for="(el, i) in links" class="mobile-menu-element" :key="i">
