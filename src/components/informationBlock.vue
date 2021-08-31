@@ -52,9 +52,12 @@ export default {
     flex-wrap: wrap;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 350px) {
+    .block-head {
+      font-size: 25px;
+    }
     .block-body {
-      justify-content: center;
+      padding: 30px 5px;
     }
   }
 </style>

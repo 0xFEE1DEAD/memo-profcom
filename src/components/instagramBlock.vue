@@ -44,4 +44,28 @@ export default {
     margin-top: 2px;
     margin-left: -8px
   }
+
+  @media (max-width: 810px) {
+    .instagram-block-icon {
+      width: 50px;
+      height: 50px
+    }
+    .instagram-block-description {
+      font-size: 22px;
+      margin-top: 2px;
+      margin-left: -4px
+    }
+  }
+
+  @media (max-width: 350px) {
+    .instagram-block-icon {
+      width: 40px;
+      height: 40px
+    }
+    .instagram-block-description {
+      font-size: 18px;
+      margin-top: 2px;
+      margin-left: -4px
+    }
+  }
 </style>

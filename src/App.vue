@@ -41,7 +41,7 @@
     </template>
 
     <div class="contacts-wrap-first">
-      <contact-block avatar_src="dekan.jpg">
+      <contact-block avatar_src="Карнаухова.jpg">
         <template v-slot:fullname>
           Карнаухова Вера Канстантиновна
         </template>
@@ -53,7 +53,7 @@
         </template>
       </contact-block>
 
-      <contact-block>
+      <contact-block avatar_src="Селезнева.jpg">
         <template v-slot:fullname>
           СЕЛЕЗНЕВА ТАИСИЯ СЕРГЕЕВНА
         </template>
@@ -67,7 +67,7 @@
 
       <div class="contacts-divider"></div>
 
-      <contact-block>
+      <contact-block avatar_src="Красовская.jpg"> 
         <template v-slot:fullname>
           КРАСОВСКАЯ АНГЕЛИНА
         </template>
@@ -121,7 +121,7 @@
           УПРАВЛЕНИЕ ПЕРСОНАЛОМ
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true">
+          <contact-block :small="true"  avatar_src="Родионова.jpg">
             <template v-slot:fullname>
                 Родионова Светлана
             </template>
@@ -130,7 +130,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true">
+          <contact-block :small="true"  avatar_src="Суркова.jpg">
             <template v-slot:fullname>
                 Суркова Алина
             </template>
@@ -142,12 +142,12 @@
         </div>
       </micro-contact-block>   
 
-      <micro-contact-block>
+      <micro-contact-block :backRotate="160">
         <template v-slot:title>
           РЕКЛАМА
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true">
+          <contact-block :small="true" avatar_src="Гарбуз.jpg">
             <template v-slot:fullname>
                 Гарбуз Никита
             </template>
@@ -156,7 +156,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true">
+          <contact-block :small="true"  avatar_src="Тимофеева.jpg">
             <template v-slot:fullname>
                 Тимофеева Дарья
             </template>
@@ -168,13 +168,13 @@
         </div>
       </micro-contact-block>
 
-      <micro-contact-block>
+      <micro-contact-block :backRotate="140">
         <template v-slot:title>
           ПРИКЛАДНАЯ ИНФОРМАТИКА
           <div style="width: 100%; font-size: 16px; text-align:center">разработка ПО</div>
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true">
+          <contact-block :small="true" avatar_src="Лубсанов.jpg">
             <template v-slot:fullname>
                 Лубсанов Антон
             </template>
@@ -183,7 +183,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true">
+          <contact-block :small="true"  avatar_src="Спиридонов.jpg">
             <template v-slot:fullname>
                 Спиридонов Антон
             </template>
@@ -195,13 +195,13 @@
         </div>
       </micro-contact-block>
 
-      <micro-contact-block>
+      <micro-contact-block :backRotate="17">
         <template v-slot:title>
           ПРИКЛАДНАЯ ИНФОРМАТИКА
           <div style="width: 100%; font-size: 16px; text-align:center">в дизайне, в управлении</div>
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true">
+          <contact-block :small="true"  avatar_src="Абсалямова.jpg">
             <template v-slot:fullname>
                 Абсалямова Аделина
             </template>
@@ -210,7 +210,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true">
+          <contact-block :small="true"  avatar_src="Спиридонов.jpg">
             <template v-slot:fullname>
                 Спиридонов Антон
             </template>
@@ -222,12 +222,12 @@
         </div>
       </micro-contact-block>
 
-      <micro-contact-block>
+      <micro-contact-block :backRotate="-170">
         <template v-slot:title>
           СЕРВИС
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true">
+          <contact-block :small="true"  avatar_src="Ангажанова.jpg">
             <template v-slot:fullname>
               Ангажанова Виктория
             </template>
@@ -236,7 +236,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true">
+          <contact-block :small="true" avatar_src="Доржиева.jpg">
             <template v-slot:fullname>
               Доржиева Светлана
             </template>
@@ -245,7 +245,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true">
+          <contact-block :small="true" avatar_src="Нурметова.jpg">
             <template v-slot:fullname>
                 Нурметова Нурият
             </template>
@@ -257,12 +257,12 @@
         </div>
       </micro-contact-block>
 
-      <micro-contact-block>
+      <micro-contact-block  :backRotate="13">
         <template v-slot:title>
           ТУРИЗМ
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true">
+          <contact-block :small="true" avatar_src="Крижевец.jpg">
             <template v-slot:fullname>
               Крижевец Александра
             </template>
@@ -271,7 +271,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true">
+          <contact-block :small="true" avatar_src="Новгородцев.jpg">
             <template v-slot:fullname>
               Новгородцев Дмитрий
             </template>
@@ -290,7 +290,6 @@
       <a :name="links[2]['src']"></a>{{links[2]['name']}}
     </template>
     <div class="curators-body">
-      <div class="curators-body-col">
         <div class="simple-block">
           <div class="simple-block-title">
             УПРАВЛЕНИЕ ПЕРСОНАЛОМ
@@ -325,8 +324,6 @@
             Иванов Иван Иванович
           </div>
         </div>
-      </div>
-      <div class="curators-body-col">
         <div class="simple-block">
           <div class="simple-block-title">
             РЕКЛАМА
@@ -346,7 +343,7 @@
             Иванов Иван Иванович
           </div>
         </div>
-      </div>
+        <div class="simple-block"></div>
     </div>
   </information-block>
 
@@ -436,13 +433,13 @@
     <div>
       адрес
     </div>
-    <div style="width: 300px">
+    <div style="max-width: 300px">
       {{locationString}}
     </div>
   </div>
   <div class="footer-author">
     <div><a href="https://www.instagram.com/dilstey/">design by dilstey</a></div>
-    <div><a href="https://github.com/0xFEE1DEAD">0xfee1dead</a></div>
+    <div><a href="https://github.com/0xFEE1DEAD/memo-profcom">0xfee1dead</a></div>
   </div>
 </div>
 </template>
@@ -600,6 +597,12 @@ export default {
   a {
     text-decoration: none;
     color: inherit;
+    transition-property: color;
+    transition-duration: 200ms;
+  }
+
+  a:hover {
+    color: rgb(20, 81, 101);
   }
 
   .blue-href {
@@ -652,6 +655,7 @@ export default {
   }
 
   .poster {
+    overflow: clip;
     max-width: 1000px;
     margin: auto;
     margin-top: 40px;
@@ -670,7 +674,7 @@ export default {
   }
 
   .micro-blocks-wrap {
-    margin-top: -100px;
+    margin-top: -80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: inherit;
@@ -711,6 +715,7 @@ export default {
     font-size: 22px;
     padding-top: 40px;
     opacity: .85;
+    word-wrap: break-word;
   }
   .footer-author {
     width: 100%; 
@@ -740,10 +745,10 @@ export default {
   }
 
   .curators-body {
+    flex-wrap: wrap;
+    margin-top: -60px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    margin: auto;
   }
 
   .menu-button {
@@ -772,7 +777,10 @@ export default {
       margin-left: 25px;
     }
     .instagram-group {
+      justify-content: center;
       display: flex;
+      flex-direction: column;
+      width: auto;
     }
     .contacts-divider {
       display: none;
@@ -781,10 +789,7 @@ export default {
       display: contents;
     }
     .curators-body {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      margin: auto;
+      justify-content: center;
     }
     .footer-location {
       margin-left: 20px;
@@ -792,17 +797,6 @@ export default {
   }
 
   @media (max-width: 810px) {
-    .curators-body {
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: -60px;
-    }
-    .curators-body-col {
-      display: contents;
-    }
-    .simple-block {
-      text-align: center;
-    }
     .menu {
       margin-top: 30px;
     }
@@ -811,6 +805,38 @@ export default {
     }
     .menu-button {
       display: block;
+    }
+    .simple-block {
+      margin-bottom: 15px;
+      min-width: 300px;
+    }
+    .simple-block-title {
+      font-size: 24px;
+    }
+    .simple-block-string {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .menu {
+      font-size: 28px;
+    }
+    .simple-block {
+      margin-bottom: 13px;
+      min-width: 300px;
+    }
+    .simple-block-title {
+      font-size: 21px;
+    }
+    .simple-block-string {
+      font-size: 17px;
+    }
+    .poster-image {
+      width: 150%;
+    }
+    .footer-location {
+      font-size: 16px;
     }
   }
 </style>

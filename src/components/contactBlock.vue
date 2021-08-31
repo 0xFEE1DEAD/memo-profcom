@@ -58,6 +58,7 @@ export default {
     width: auto;
     height: 100%;
     border-radius: 100%;
+    border: solid 2px white;
   }
 
   .contact_block_contacts_full-name {
@@ -85,7 +86,7 @@ export default {
   .contact_block_contacts_contacts {
     font-family: 'Bebas Neue';
     font-weight: 400;
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 5px;
   }
 
@@ -97,7 +98,7 @@ export default {
     height: 70px;
   }
 
-  @media (max-width: 810px) {
+  @media (max-width: 880px) {
     .contact_block_contacts {
       margin-left: 25px;
     }
@@ -111,11 +112,13 @@ export default {
     }
 
     .contact_block_contacts_position {
+      margin-top: -3px;
       font-size: 15px;
     }
 
     .contact_block_contacts_contacts {
-      font-size: 24px;
+      margin-top: 3px;
+      font-size: 22px;
     }
 
     .contact_block_contacts-sm {
@@ -135,7 +138,51 @@ export default {
     }
 
     .contacts-small {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .contact_block_contacts {
+      margin-left: 20px;
+    }
+
+    .contact_block_avatar_block {
+      height: 60px;
+    }
+
+    .contact_block_contacts_full-name {
       font-size: 20px;
+    }
+
+    .contact_block_contacts_position {
+      margin-top: -2px;
+      font-size: 12px;
+    }
+
+    .contact_block_contacts_contacts {
+      margin-top: 2px;
+      font-size: 16px;
+    }
+
+    .contact_block_contacts-sm {
+      margin-left: 14px;
+    }
+
+    .small-avatar {
+      height: 50px;
+    }
+
+    .fullname-small {
+      font-size: 18px;
+    }
+
+    .position-small {
+      font-size: 16px;
+    }
+
+    .contacts-small {
+      font-size: 16px;
     }
   }
 </style>
