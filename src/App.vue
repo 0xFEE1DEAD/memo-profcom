@@ -29,6 +29,12 @@
     <div class="menu-button">
       <burger-btn :status="mobileMenu" ref="b-btn" @toggle="menuToggle"></burger-btn>
     </div>
+
+    <div class="logos">
+      <img class="logos-img" src="./assets/images/f.png">
+      <img class="logos-img" src="./assets/images/isu.png">
+      <img class="logos-img" src="./assets/images/plus.png">
+    </div>
   </div>
 
   <div class="poster">
@@ -541,6 +547,23 @@ export default {
       font-style: normal;
   }
 
+  .logos {
+    position: absolute; 
+    right: 0; 
+    top: -50px;
+    margin: auto;
+    width: 100%;
+    text-align: right;
+    min-width: 220px;
+  }
+
+  .logos-img {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    text-align: center;
+  }
+
   .mobile-menu {
     overflow: auto;
     width:100%;
@@ -626,6 +649,7 @@ export default {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
 
   .menu-block-logo {
@@ -798,7 +822,7 @@ export default {
 
   @media (max-width: 810px) {
     .menu {
-      margin-top: 30px;
+      margin-top: 50px;
     }
     .menu-hrefs {
       display: none;
@@ -815,6 +839,9 @@ export default {
     }
     .simple-block-string {
       font-size: 20px;
+    }
+    .logos {
+      text-align: center;
     }
   }
 
