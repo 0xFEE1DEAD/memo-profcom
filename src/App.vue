@@ -47,7 +47,7 @@
     </template>
 
     <div class="contacts-wrap-first">
-      <contact-block avatar_src="Карнаухова.jpg">
+      <contact-block avatar_src="Karnauhova.jpg">
         <template v-slot:fullname>
           Карнаухова Вера Канстантиновна
         </template>
@@ -59,7 +59,7 @@
         </template>
       </contact-block>
 
-      <contact-block avatar_src="Селезнева.jpg">
+      <contact-block avatar_src="Selezneva.jpg">
         <template v-slot:fullname>
           СЕЛЕЗНЕВА ТАИСИЯ СЕРГЕЕВНА
         </template>
@@ -73,7 +73,7 @@
 
       <div class="contacts-divider"></div>
 
-      <contact-block avatar_src="Красовская.jpg"> 
+      <contact-block avatar_src="Krasovskaya.jpg"> 
         <template v-slot:fullname>
           КРАСОВСКАЯ АНГЕЛИНА
         </template>
@@ -127,7 +127,7 @@
           УПРАВЛЕНИЕ ПЕРСОНАЛОМ
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true"  avatar_src="Родионова.jpg">
+          <contact-block :small="true"  avatar_src="Rodionova.jpg">
             <template v-slot:fullname>
                 Родионова Светлана
             </template>
@@ -136,7 +136,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true"  avatar_src="Суркова.jpg">
+          <contact-block :small="true"  avatar_src="Surkova.jpg">
             <template v-slot:fullname>
                 Суркова Алина
             </template>
@@ -153,7 +153,7 @@
           РЕКЛАМА
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true" avatar_src="Гарбуз.jpg">
+          <contact-block :small="true" avatar_src="Garbuz.jpg">
             <template v-slot:fullname>
                 Гарбуз Никита
             </template>
@@ -162,7 +162,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true"  avatar_src="Тимофеева.jpg">
+          <contact-block :small="true"  avatar_src="Timofeeva.jpg">
             <template v-slot:fullname>
                 Тимофеева Дарья
             </template>
@@ -180,7 +180,7 @@
           <div style="width: 100%; font-size: 16px; text-align:center">разработка ПО</div>
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true" avatar_src="Лубсанов.jpg">
+          <contact-block :small="true" avatar_src="Lubsanov.jpg">
             <template v-slot:fullname>
                 Лубсанов Антон
             </template>
@@ -189,7 +189,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true"  avatar_src="Спиридонов.jpg">
+          <contact-block :small="true"  avatar_src="Spiridonov.jpg">
             <template v-slot:fullname>
                 Спиридонов Антон
             </template>
@@ -207,7 +207,7 @@
           <div style="width: 100%; font-size: 16px; text-align:center">в дизайне, в управлении</div>
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true"  avatar_src="Абсалямова.jpg">
+          <contact-block :small="true"  avatar_src="Absalyamova.jpg">
             <template v-slot:fullname>
                 Абсалямова Аделина
             </template>
@@ -216,7 +216,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true"  avatar_src="Спиридонов.jpg">
+          <contact-block :small="true"  avatar_src="Spiridonov.jpg">
             <template v-slot:fullname>
                 Спиридонов Антон
             </template>
@@ -233,7 +233,7 @@
           СЕРВИС
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true"  avatar_src="Ангажанова.jpg">
+          <contact-block :small="true"  avatar_src="Angazhanova.jpg">
             <template v-slot:fullname>
               Ангажанова Виктория
             </template>
@@ -242,7 +242,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true" avatar_src="Доржиева.jpg">
+          <contact-block :small="true" avatar_src="Dorzhieva.jpg">
             <template v-slot:fullname>
               Доржиева Светлана
             </template>
@@ -251,7 +251,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true" avatar_src="Нурметова.jpg">
+          <contact-block :small="true" avatar_src="Nurmetova.jpg">
             <template v-slot:fullname>
                 Нурметова Нурият
             </template>
@@ -268,7 +268,7 @@
           ТУРИЗМ
         </template>
         <div class="contacts-wrap">
-          <contact-block :small="true" avatar_src="Крижевец.jpg">
+          <contact-block :small="true" avatar_src="Krizhevec.jpg">
             <template v-slot:fullname>
               Крижевец Александра
             </template>
@@ -277,7 +277,7 @@
             </template>
             <template v-slot:contacts></template>
           </contact-block>
-          <contact-block :small="true" avatar_src="Новгородцев.jpg">
+          <contact-block :small="true" avatar_src="Novgorodcev.jpg">
             <template v-slot:fullname>
               Новгородцев Дмитрий
             </template>
