@@ -49,13 +49,14 @@
     <div class="contacts-wrap-first">
       <contact-block avatar_src="Karnauhova.jpg">
         <template v-slot:fullname>
-          Карнаухова Вера Канстантиновна
+          Карнаухова Вера Константиновна
         </template>
         <template v-slot:position>
           декан
         </template>
         <template v-slot:contacts>
-          <a href="tel:8395212355">8 (395) 21-23-55</a>, <a class="blue-href" href="mailto:dekanat@isu.ru">dekanat@isu.ru</a>
+          <a href="tel:83952426417">8 (3952) 42-64-17</a>,
+          <a class="blue-href" href="mailto:dekanat@isu.ru">dekanat@isu.ru</a>
         </template>
       </contact-block>
 
@@ -67,6 +68,7 @@
           заместитель декана по воспитательной работе
         </template>
         <template v-slot:contacts>
+          <a href="tel:83952521065">8 (3952) 52-10-65</a>,
           <a class="blue-href" href="https://vk.com/univer1945">vk.com/univer1945</a>
         </template>
       </contact-block>
@@ -150,7 +152,7 @@
 
       <micro-contact-block :backRotate="160">
         <template v-slot:title>
-          РЕКЛАМА
+          Реклама и связи с общественностью
         </template>
         <div class="contacts-wrap">
           <contact-block :small="true" avatar_src="Garbuz.jpg">
@@ -327,18 +329,21 @@
             ТУРИЗМ
           </div>
           <div class="simple-block-string">
-            Иванов Иван Иванович
+            Панкеева Наталья Сергеевна
           </div>
         </div>
         <div class="simple-block">
-          <div class="simple-block-title">
-            РЕКЛАМА
+          <div class="simple-block-title" style="max-width: 300px">
+            Реклама и связи с общественностью
           </div>
           <div class="simple-block-string">
             Подкаменная Елизавета Васильевна
           </div>
           <div class="simple-block-string">
-            Иовлева Юлия Сергеевна
+            Невмержицкая Елена Александровна
+          </div>
+          <div class="simple-block-string">
+            Сивкова Анастасия Викторовна
           </div>
         </div>
         <div class="simple-block">
@@ -346,7 +351,7 @@
             Сервис
           </div>
           <div class="simple-block-string">
-            Иванов Иван Иванович
+            Антонова Наталия Александровна
           </div>
         </div>
         <div class="simple-block"></div>
@@ -365,7 +370,7 @@
             По вопросам справок обращаться на почту:
           </div>
           <div class="simple-block-string">
-            <a class="blue-href" href="mailto:uvarovskaya.dekanat@mail.ru">uvarovskaya.dekanat@mail.ru</a>
+            <a class="blue-href" href="mailto:dekanat@sr.isu.ru">dekanat@sr.isu.ru</a>
           </div>
         </div>
         <div class="simple-block">
@@ -392,7 +397,7 @@
             срочные вопросы по телефону
           </div>
           <div class="simple-block-string">
-            <a class="blue-href" href="tel:426417">42-64-17</a>
+            <a class="blue-href" href="tel:83952426417">8 (3952) 42-64-17</a>
           </div>
         </div>
         <div class="simple-block">
@@ -400,7 +405,7 @@
             работает горячая линия:
           </div>
           <div class="simple-block-string">
-            <a class="blue-href" href="tel:89641167226">89641167226</a>
+            <a class="blue-href" href="tel:89641167226">8 (9641) 16-72-26</a>
           </div>
         </div>
         <div class="simple-block">

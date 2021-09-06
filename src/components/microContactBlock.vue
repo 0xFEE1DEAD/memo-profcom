@@ -72,6 +72,7 @@ export default {
     font-family: 'Bebas Neue';
     font-weight: 400;
     font-size: 28px;
+    text-align: center;
   }
 
   @media (max-width: 880px) {
